@@ -5,7 +5,7 @@
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
-        <version>3.1.0</version>
+        <version>3.8.4</version>
         <executions>
           <execution>
             <id>run-python</id>
@@ -16,7 +16,7 @@
             <configuration>
               <executable>python</executable>
               <arguments>
-                <argument>script.py</argument>
+                <argument>hello.py</argument>
               </arguments>
             </configuration>
           </execution>
